@@ -1,0 +1,8 @@
+---
+FileDownloadTimeExpression: 0 0 13 * * * # Cron expression with the period in which the csv file will be downloaded.
+NumberOfFilesToKeepSaved: 3 # The number of csv files to keep saved localy.
+CSVFileBaseUrl: https://www.bcb.gov.br/content/estabilidadefinanceira/spi/ # The csv base url to download the Pix participants csv file.
+CSVFilePrefix: participantes-spi- # The csv file name prefix.
+MinimumLogLevel: info # Defines the minimum log level to display.
+BrazilTimeZone: America/Sao_Paulo # Timezone in Brazil.
+

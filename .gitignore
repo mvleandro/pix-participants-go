@@ -20,3 +20,6 @@ pix-participants
 
 # Go workspace file
 go.work
+
+# Downloaded csv file
+*.csv
